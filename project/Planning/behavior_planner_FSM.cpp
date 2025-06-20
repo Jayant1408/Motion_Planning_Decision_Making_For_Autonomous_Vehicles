@@ -213,7 +213,7 @@ State BehaviorPlannerFSM::state_transition(const State& ego_state, State goal,
     // is the same as the previous goal. That way we keep/maintain the goal at
     // the stop line. goal = ...;
     // goal = ;  // Keep previous goal. Stay where you are. // <- Fix This
-    goal = _goal
+    goal = _goal;
 
     long long stopped_secs =
         std::chrono::duration_cast<std::chrono::seconds>(
