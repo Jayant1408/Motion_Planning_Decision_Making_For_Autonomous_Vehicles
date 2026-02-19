@@ -22,6 +22,7 @@
 #define P_ERR_TOLERANCE 0.1            // m
 #define P_TIME_GAP 1.0                 // s
 #define P_MAX_ACCEL 1.5                // m/s^2
+#define P_COMFORT_DECEL 1.5            // m/s^2
 #define P_SLOW_SPEED 1.0               // m/s
 #define P_SPEED_LIMIT 3.0              // m/s
 #define P_STOP_LINE_BUFFER 0.5         // m
