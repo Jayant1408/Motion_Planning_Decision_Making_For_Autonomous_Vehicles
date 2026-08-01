@@ -145,9 +145,7 @@ student@foobar:/opt/carla-simulator/#  SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -
 
 This should set the CARLA Simulator to headless mode and prevent the programme from incurring any `Segmentation fault (core dumped)` errors.
 
-## TODO This should be the first step as uWS is not there
-
-The second step is to run the `install-ubuntu.sh` build script which installs the necessary dependencies for the Ubuntu LTS runtime environment. To do so, open a new console window, navigate to the project subfolder (here, that's `Motion_Planning_Decision_Making_For_Autonomous_Vehicles/project`), and run the following:
+The next step is to run the `install-ubuntu.sh` build script which installs the necessary dependencies for the Ubuntu LTS runtime environment. To do so, open a new console window, navigate to the project subfolder (here, that's `Motion_Planning_Decision_Making_For_Autonomous_Vehicles/project`), and run the following:
 
 ```console
 root@foobar:/opt/web-terminal/Motion_Planning_Decision_Making_For_Autonomous_Vehicles/project/#  ./install-ubuntu.sh
@@ -183,8 +181,9 @@ This concludes the programming tasks for this project. Refer to the "Tasks" chec
 
 #### Results
 
-The following output was produced during a test run of the 
-<img src="results/2022-12-29-Figure-1-Testing-Motion-Planner-in-CARLA.gif" width="100%" height="100%" alt="Figure 1. Testing the Motion Planner in the CARLA Simulator.">
+The following output was produced during a test run of the planner in CARLA:
+
+<img src="results/Planning_output.gif" width="100%" alt="Figure 1. Testing the Motion Planner in the CARLA Simulator.">
 
 $$
 \begin{align}
